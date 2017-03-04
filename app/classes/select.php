@@ -1,4 +1,6 @@
 <?php
+namespace app\classes;
+
 class select {
   public $selecthtml;
   private $properties;

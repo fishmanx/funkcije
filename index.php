@@ -1,6 +1,10 @@
 <?php
-include ('table.php');
-include ('select.php');
+use app\classes\table;
+use app\classes\select;
+
+require_once 'app/start.php';
+
+
 $tabela = new table();
 $properties=array('class'=>'mojaklasa','id'=>'mojid', 'name'=>'mojname', 'width'=>'100%', 'border'=>'2');
 $headers = array('prva kolona', 'druga kolona' , 'treca kolona', 'cetvrta kolona' );

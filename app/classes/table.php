@@ -1,4 +1,6 @@
 <?php
+namespace app\classes;
+
 class table {
 
   public $tablehtml; // finished table to be displayed
