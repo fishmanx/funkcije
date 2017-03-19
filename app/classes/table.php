@@ -44,5 +44,5 @@ class table {
   }
 }
 // komentar
-// novi komentart new branch
+// novi komentar new branch
 ?>
